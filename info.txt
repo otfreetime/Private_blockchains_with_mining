@@ -1,0 +1,13 @@
+bootnode -nodekeyhex a73db41d002d90af88a60f6febeeb2071fb848f8b0a46599d143b3efb6cb6c44
+
+
+
+geth --datadir data -- bootnodes=enode://2dc7a521c47d7796b3f7d6e01739605e8eea856205919b0f27ad9936cc311a662e1c976218c0e4470debc552953c22e8b08ca1aa7e13e9a16f064cf093684820@127.0.0.1:0?discport=30301
+
+
+
+
+geth attach \\.\pipe\geth.ipc
+
+
+geth --datadir data --mine --miner.threads=1 --miner.etherbase=0x1dc4c35b28d0b4bcdfbe912de8644be3d9c96758
